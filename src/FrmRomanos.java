@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
@@ -44,7 +45,7 @@ public class FrmRomanos extends JFrame {
     }
 
     private void convertirARomano() {
-
+        JOptionPane.showMessageDialog(null, "Hizo clic en CONVERTIR");
     }
 
 }
